@@ -120,7 +120,7 @@ export default function LocosPorElFutbolProposal() {
                   className="col-span-3 lg:col-span-2"
                   background={<div className="absolute inset-0 bg-linear-to-br from-emerald-500/5 to-transparent z-0" />}
                   Icon={Video}
-                  description="Reproductor integrado (enlaces ocultos de YouTube). Cuenta regresiva, marcador en tiempo real, chat exclusivo en vivo y espacios publicitarios dinámicos."
+                  description="Reproductor de video integrado. Cuenta regresiva, marcador en tiempo real, chat exclusivo en vivo y espacios publicitarios dinámicos."
                 />
                 
                 <BentoCard
