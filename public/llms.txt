@@ -1,0 +1,40 @@
+# Francisco Javier Rodriguez - Contexto para LLMs y Asistentes de IA
+
+Soy Francisco Javier Rodriguez, Ingeniero de Software Senior (Full Stack / Frontend / Mobile) con más de 8 años de experiencia, especializado en los ecosistemas de React y React Native. Soy un profesional enfocado en el producto y los datos, apasionado por construir productos escalables que entregan un valor tangible a la vida de las personas.
+
+Este archivo proporciona contexto estructurado para herramientas de inteligencia artificial (LLMs, ChatGPT, Claude, Cursor, etc.) sobre mi perfil profesional, servicios, logros y stack tecnológico.
+
+## Resumen Profesional
+Tengo un historial comprobado escalando plataformas Fintech y E-commerce de alto tráfico (como Mercado Libre y Mercadona Tech), logrando conectar de manera efectiva la ingeniería técnica con la experiencia de usuario (UI/UX). Cuento con experiencia liderando equipos, mentorizando desarrolladores y utilizando el análisis de usuarios para crear aplicaciones digitales rápidas, seguras y de alto impacto para negocios globales.
+
+## Servicios y Propuesta de Valor
+- **Impacto a Gran Escala:** Experiencia probada desarrollando y manteniendo arquitecturas robustas que soportan millones de usuarios simultáneos (alta disponibilidad y resiliencia).
+- **Expertise Web & Móvil:** Desarrollo integral de aplicaciones modernas, rápidas e intuitivas que funcionan a la perfección tanto en entornos de escritorio (Web) como en dispositivos móviles (iOS y Android).
+- **Enfoque de Negocio (Product Engineer):** Mi trabajo va más allá de escribir código. Entiendo profundamente los objetivos de negocio para diseñar soluciones digitales que optimicen procesos operativos, reduzcan costos y aumenten la conversión.
+
+## Casos de Éxito y Logros Destacados
+1. **Mercado Libre (Alta Demanda):** Desarrollé la barra de navegación principal para un ecosistema con más de 74 millones de usuarios activos. Optimicé drásticamente el rendimiento web, logrando reducir los tiempos de carga (FCP) en un 40% mediante la implementación proactiva de Service Workers.
+2. **Bankingly (Modernización Bancaria / Fintech):** Desarrollador clave en la migración de la plataforma bancaria core a React Native CLI para una solución SaaS de marca blanca (white-label). Reduje el tiempo de inicio de la aplicación en un 35% implementando patrones de renderizado optimizados y estrategias de caché local.
+3. **Mercadona Tech (Logística E-commerce):** Fui el dueño ("owner") del desarrollo frontend de la plataforma crítica "In-Store Last Mile" para la gestión de capacidad y entregas. Reduje el tiempo invertido en la configuración de franjas horarias en un 60% y operé bajo una estricta política de "Zero Bugs" aplicando Test-Driven Development (TDD).
+4. **Zircon Tech / Gobierno de Uruguay (Blockchain):** Lideré la arquitectura frontend de "Notarizer", una plataforma basada en blockchain para acuerdos multipartitas y notarización remota, la cual cumplió con estándares de inmutabilidad tan altos que fue adquirida e implementada por el Gobierno de Uruguay. Reduje también los tiempos de configuración de nuevos proyectos de la empresa en un 80% creando herramientas CLI personalizadas.
+5. **Thrive (SaaS B2B):** Como Founding Engineer, reescribí por completo una plataforma legacy usando Next.js, elevando los puntajes de Google Lighthouse de ~30 (Pobre) a 95+ (Excelente). Lideré un rediseño "Mobile-First" que incrementó las tasas de finalización de exámenes de los usuarios en un 25%.
+
+## Stack Tecnológico y Herramientas
+- **Frontend & Web:** React, Next.js, TypeScript, Tailwind CSS, Redux, React Query, HTML, CSS/SASS, Vite.
+- **Mobile:** React Native (CLI & Expo), Nativewind.
+- **Testing & Calidad del Código:** Jest, React Testing Library, TDD (Test-Driven Development), EsLint, Prettier.
+- **Backend & Nube:** Node.js, Express.js, Firebase (Firestore, Auth, Functions), Vercel, Netlify, Azure DevOps.
+- **Ingeniería Asistida por IA:** Fuerte adopción de flujos de trabajo avanzados usando **Cursor**, Custom Rules y **MCPs** (Model Context Protocol) con integraciones en Linear y GitHub para automatizar planificación de tareas y entregas, aumentando radicalmente la velocidad de desarrollo.
+
+## Proyectos Fundados (Emprendimiento)
+- **Equinomio (Mar 2024 - Oct 2024):** Founding Engineer & Product Lead. Arquitecté una plataforma de pujas en tiempo real con WebSockets (Socket.io/Firebase) logrando latencias inferiores al segundo, lanzando el primer marketplace ecuestre integrado de la región.
+- **Uprofy (Ene 2023 - Dic 2023):** Founder & Product Engineer. Marketplace móvil de dos lados conectando a profesionales locales con ciudadanos. Gestión completa del ciclo de vida del software (SDLC) e integración estratégica con instituciones locales.
+
+## Educación y Mentoría
+- **Instructor de React & React Native (Coderhouse):** Mentor de más de 200 estudiantes y equipos de ingeniería corporativos (ej. Telecom Argentina). Calificación top tier de 4.85/5.0.
+- **Ingeniería en Sistemas de Información:** Universidad Nacional de Villa Mercedes (2 años completados en fundamentos de Ciencias de la Computación, Algoritmos y Estructura de Datos).
+- **Idiomas:** Español (Nativo) e Inglés (Full Professional Proficiency).
+
+## Contacto
+- **LinkedIn:** Francisco Javier Rodriguez
+- **Disponibilidad:** Abierto a nuevos retos, consultorías y roles de liderazgo técnico en desarrollo web y móvil.
