@@ -21,6 +21,17 @@ import {
   CheckCircle2
 } from "lucide-react";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Propuesta de Desarrollo | Locos por el Fútbol",
+  description: "Propuesta confidencial para el desarrollo de la plataforma de streaming de partidos en vivo.",
+  openGraph: {
+    title: "Propuesta de Desarrollo | Locos por el Fútbol",
+    description: "Propuesta confidencial para el desarrollo de la plataforma de streaming de partidos en vivo.",
+    type: "website",
+  },
+};
 
 export default function LocosPorElFutbolProposal() {
   const typewriterWords = [
@@ -199,7 +210,7 @@ export default function LocosPorElFutbolProposal() {
         
         <div className="container mx-auto px-4 md:px-6">
           <Card className="max-w-3xl mx-auto border-emerald-500/20 shadow-2xl shadow-emerald-500/10 overflow-hidden">
-            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-400 to-emerald-600"></div>
+            <div className="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-emerald-400 to-emerald-600"></div>
             <CardHeader className="text-center pb-2 pt-10">
               <CardTitle className="text-3xl font-bold">Inversión de la Fase 1</CardTitle>
               <CardDescription className="text-lg mt-2">

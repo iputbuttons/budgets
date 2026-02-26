@@ -25,6 +25,17 @@ import {
   ShieldCheck
 } from "lucide-react";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Propuesta de Desarrollo | Transportes Montivero",
+  description: "Propuesta confidencial para el desarrollo del Sistema Integral de Gestión de Recorridos.",
+  openGraph: {
+    title: "Propuesta de Desarrollo | Transportes Montivero",
+    description: "Propuesta confidencial para el desarrollo del Sistema Integral de Gestión de Recorridos.",
+    type: "website",
+  },
+};
 
 export default function TransportesMontiveroProposal() {
   const typewriterWords = [
