@@ -120,7 +120,7 @@ export default function PresentacionMontivero() {
               <FlipWords 
                 words={[
                   "logística y transporte.", 
-                  "transparencia operativa.", 
+                  "trazabilidad total.", 
                   "calidad de servicio.", 
                   "control y seguridad."
                 ]} 
