@@ -433,11 +433,6 @@ export default function PresentacionMontivero() {
           <p className="text-white/80 max-w-2xl mx-auto mb-10 text-xl font-medium">
             Esta innovación es una inversión directa en la tranquilidad de su empresa. En Transportes Montivero, su confianza es el motor que nos impulsa a mejorar cada día.
           </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Button size="lg" className="h-14 px-8 text-lg font-bold bg-emerald-600 text-white hover:bg-emerald-500 transition-colors shadow-xl shadow-emerald-500/20">
-              Solicitar Demostración
-            </Button>
-          </div>
         </div>
         <ShootingStars starColor="#10b981" trailColor="#047857" />
         <StarsBackground starDensity={0.0003} />
