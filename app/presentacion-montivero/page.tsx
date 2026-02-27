@@ -269,6 +269,64 @@ export default function PresentacionMontivero() {
         </div>
       </section>
 
+      {/* ISO 9001 Section */}
+      <section className="py-24 bg-emerald-900 text-emerald-50 relative overflow-hidden">
+        {/* Background Decorative Pattern */}
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#10b9811a_1px,transparent_1px),linear-gradient(to_bottom,#10b9811a_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-30"></div>
+        
+        <div className="container mx-auto px-4 md:px-6 relative z-10">
+          <div className="flex flex-col items-center text-center space-y-6 max-w-3xl mx-auto mb-16">
+            <div className="w-16 h-16 bg-emerald-800 rounded-2xl flex items-center justify-center border border-emerald-500/30 shadow-lg shadow-emerald-900/50 mb-2">
+              <Award className="w-8 h-8 text-emerald-400" />
+            </div>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-white">
+              El Aliado Perfecto para la Norma ISO 9001
+            </h2>
+            <p className="text-lg text-emerald-100/90 leading-relaxed">
+              Sabemos que la industria exige proveedores logísticos confiables. Nuestra plataforma está diseñada para resolverle la vida a sus auditores y gerentes de calidad, garantizando procesos medidos, documentados y 100% trazables.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <Card className="bg-emerald-950/50 border-emerald-800 backdrop-blur-sm text-emerald-50">
+              <CardHeader>
+                <div className="w-12 h-12 bg-emerald-800 rounded-lg flex items-center justify-center mb-4 border border-emerald-600/50">
+                  <ShieldCheck className="w-6 h-6 text-emerald-400" />
+                </div>
+                <CardTitle className="text-xl text-white">Trazabilidad Total</CardTitle>
+              </CardHeader>
+              <CardContent className="text-emerald-100/80">
+                La norma ISO exige que todo proceso deje una "huella" auditable. Al digitalizar la operativa, su fábrica sabrá exactamente quién, cómo y cuándo se entregó la carga, con fotos y firmas digitales precisas.
+              </CardContent>
+            </Card>
+
+            <Card className="bg-emerald-950/50 border-emerald-800 backdrop-blur-sm text-emerald-50">
+              <CardHeader>
+                <div className="w-12 h-12 bg-emerald-800 rounded-lg flex items-center justify-center mb-4 border border-emerald-600/50">
+                  <FileText className="w-6 h-6 text-emerald-400" />
+                </div>
+                <CardTitle className="text-xl text-white">Información Documentada</CardTitle>
+              </CardHeader>
+              <CardContent className="text-emerald-100/80">
+                Las empresas certificadas necesitan acceso rápido a la información. Adiós a las carpetas con remitos perdidos; nuestra plataforma permite que su equipo de calidad encuentre cualquier comprobante de hace meses en solo 3 clics.
+              </CardContent>
+            </Card>
+
+            <Card className="bg-emerald-950/50 border-emerald-800 backdrop-blur-sm text-emerald-50">
+              <CardHeader>
+                <div className="w-12 h-12 bg-emerald-800 rounded-lg flex items-center justify-center mb-4 border border-emerald-600/50">
+                  <TrendingUp className="w-6 h-6 text-emerald-400" />
+                </div>
+                <CardTitle className="text-xl text-white">Mejora Continua</CardTitle>
+              </CardHeader>
+              <CardContent className="text-emerald-100/80">
+                La ISO 9001 se basa en medir para mejorar. Le facilitamos la exportación de métricas de puntualidad y eficiencia logística para que pueda demostrar un alto desempeño en sus próximas auditorías de calidad.
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Features Detail */}
       <section className="py-24 bg-muted/30">
         <div className="container mx-auto px-4 md:px-6">
