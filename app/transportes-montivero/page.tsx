@@ -26,6 +26,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { Metadata } from "next";
+import { DeveloperFooter } from "@/components/developer-footer";
 
 export const metadata: Metadata = {
   title: "Propuesta de Desarrollo | Transportes Montivero",
@@ -370,6 +371,8 @@ export default function TransportesMontiveroProposal() {
           </div>
         </div>
       </section>
+      
+      <DeveloperFooter />
     </div>
   );
 }

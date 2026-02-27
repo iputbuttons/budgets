@@ -22,6 +22,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { Timeline } from "@/components/ui/timeline";
+import { DeveloperFooter } from "@/components/developer-footer";
 
 import { ShootingStars } from "@/components/ui/shooting-stars";
 import { StarsBackground } from "@/components/ui/stars-background";
@@ -441,15 +442,8 @@ export default function PresentacionMontivero() {
         <ShootingStars starColor="#10b981" trailColor="#047857" />
         <StarsBackground starDensity={0.0003} />
       </section>
-
-      {/* Footer minimalista */}
-      <footer className="border-t bg-background py-8">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Transportes Montivero. Innovación al servicio de la industria.
-          </p>
-        </div>
-      </footer>
+      
+      <DeveloperFooter />
     </div>
   );
 }
