@@ -24,7 +24,7 @@ export function DeveloperFooter() {
             Ingeniero de Software con más de 8 años de experiencia, especializado en crear productos digitales modernos, escalables y seguros para impulsar el crecimiento de los negocios.
           </p>
           <Link 
-            href="https://linkedin.com/in/tu-perfil" 
+            href="https://linkedin.com/in/iputbuttons" 
             target="_blank"
             className="inline-flex items-center gap-2 text-lg text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 font-semibold transition-colors"
           >

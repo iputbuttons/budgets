@@ -93,13 +93,13 @@ export default function Home() {
 
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button size="lg" className="h-12 px-8 text-base shadow-lg shadow-emerald-500/20" asChild>
-                  <Link href="mailto:tu-email@ejemplo.com">
-                    <Mail className="mr-2 h-5 w-5" />
-                    Contactar ahora
+                  <Link href="https://wa.me/5492657202327" target="_blank">
+                    <MessageCircle className="mr-2 h-5 w-5" />
+                    Contactar por WhatsApp
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" className="h-12 px-8 text-base" asChild>
-                  <Link href="https://linkedin.com/in/tu-perfil" target="_blank">
+                  <Link href="https://linkedin.com/in/iputbuttons" target="_blank">
                     <Linkedin className="mr-2 h-5 w-5" />
                     LinkedIn
                   </Link>
@@ -376,13 +376,13 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" className="h-14 px-8 text-lg font-bold text-emerald-700 hover:bg-emerald-50 transition-colors shadow-xl shadow-black/10" asChild>
-              <Link href="https://wa.me/tunumerodetelefono" target="_blank">
+              <Link href="https://wa.me/5492657202327" target="_blank">
                 <MessageCircle className="mr-2 h-6 w-6" />
                 Contactar por WhatsApp
               </Link>
             </Button>
             <Button size="lg" variant="outline" className="h-14 px-8 text-lg font-semibold bg-transparent border-primary-foreground/20 hover:bg-primary-foreground/10" asChild>
-              <Link href="https://github.com/tu-usuario" target="_blank">
+              <Link href="https://github.com/iputbuttons" target="_blank">
                 <Github className="mr-2 h-6 w-6" />
                 Ver GitHub
               </Link>
@@ -408,17 +408,17 @@ export default function Home() {
             </nav>
 
             <div className="flex items-center gap-4">
-              <Link href="https://linkedin.com/in/tu-perfil" target="_blank" className="text-muted-foreground hover:text-emerald-500 transition-colors">
+              <Link href="https://linkedin.com/in/iputbuttons" target="_blank" className="text-muted-foreground hover:text-emerald-500 transition-colors">
                 <span className="sr-only">LinkedIn</span>
                 <Linkedin className="h-5 w-5" />
               </Link>
-              <Link href="https://github.com/tu-usuario" target="_blank" className="text-muted-foreground hover:text-emerald-500 transition-colors">
+              <Link href="https://github.com/iputbuttons" target="_blank" className="text-muted-foreground hover:text-emerald-500 transition-colors">
                 <span className="sr-only">GitHub</span>
                 <Github className="h-5 w-5" />
               </Link>
-              <Link href="mailto:tu-email@ejemplo.com" className="text-muted-foreground hover:text-emerald-500 transition-colors">
-                <span className="sr-only">Email</span>
-                <Mail className="h-5 w-5" />
+              <Link href="https://wa.me/5492657202327" target="_blank" className="text-muted-foreground hover:text-emerald-500 transition-colors">
+                <span className="sr-only">WhatsApp</span>
+                <MessageCircle className="h-5 w-5" />
               </Link>
             </div>
           </div>
