@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Linkedin } from "lucide-react";
-import Image from "next/image";
 
 export function DeveloperFooter() {
   return (
@@ -8,11 +7,10 @@ export function DeveloperFooter() {
       <div className="container mx-auto px-4 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-8 text-center sm:text-left">
         <div className="flex-shrink-0">
           <div className="relative w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden border-2 border-emerald-500/30 shadow-md">
-            <Image 
+            <img 
               src="/photo-square.jpg" 
               alt="Francisco Javier Rodriguez" 
-              fill
-              className="object-cover"
+              className="w-full h-full object-cover"
             />
           </div>
         </div>
